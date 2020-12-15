@@ -1,0 +1,38 @@
+
+/*** Base Styles ***/
+
+body{
+margin:0;
+padding:0;
+}
+.row>div{
+	border:1px solid black;
+	position: relative;
+	min-height: 1px;
+	padding-right:15px;
+	padding-left:15px; 
+	box-sizing: border-box;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+/***desktop devices***/
+@media (min-width: 992px){
+	.col-lg-6{
+	width:30%;
+	float: left;
+	}
+}
+/***small devices***/
+@media (min-width: 1px) and (max-width: 767px){
+	.col-sm-2{
+	width:50%;
+	float:none;
+}
+}
+/***medium devices***/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-4{
+	width:45%;
+	float: left;
+	}
+}
